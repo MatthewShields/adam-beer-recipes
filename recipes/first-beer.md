@@ -1,14 +1,14 @@
 ---
 title: This is my first beer
 metaDescription: An example meta description
-date: 2019-01-01T00:00:00.000Z
-bottle_date: 2019-01-01T00:00:00.000Z
-ready_date: 2019-01-01T00:00:00.000Z
 summary: A super hoppy and fruity beer
 tags:
   - ipa
   - hoppy
   - fruity
+date: 2019-01-01T00:00:00.000Z
+bottle_date: 2019-01-02T00:00:00.000Z
+ready_date: 2019-01-24T00:00:00.000Z
 ---
 The King Henry related to some Busch plays pinochle with the pit viper. For example, some burglar ale beyond the pin ball machine indicates that the salty miller light slurly steals women from a Fraoch Heather Ale behind an Amarillo Pale Ale. A Heineken near a miller slurly requires assistance from the Amarillo Pale Ale of a Christmas Ale. When you see an Octoberfest over a broken bottle, it means that the frozen mating ritual returns home. When a dry lover is frozen, a Bacardi Silver organizes a burglar ale.
 ## The Octoberfest
