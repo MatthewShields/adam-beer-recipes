@@ -81,6 +81,7 @@ pre {
 .wrapper {
 	max-width: 80ch;
 	margin: 0 auto;
+	width: 100%;
 }
 
 /* Header Logo (style as h2) */
