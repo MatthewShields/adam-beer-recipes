@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+section: recipes
+permalink: /recipes/index.html
+---
+<h1>{{ title }}</h1>
+
+{{ layoutContent | safe }}
+
+{% set postslist = collections.recipes %}
+
+{% include "components/postslist.njk" %}
