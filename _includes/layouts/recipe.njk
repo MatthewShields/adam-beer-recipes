@@ -6,24 +6,26 @@ section: recipe
 <article>
   <h1>{{ title }}</h1>
 
+  <hr>
+
   {%- if date -%}
   <p>
     <small>
-      <strong>Start Date:</strong> <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></a>
+      <strong>Start Date:</strong> <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time></a>
     </small>
   </p>
   {%- endif -%}
   {%- if bottle_date -%}
   <p>
     <small>
-      <strong>Bottle Condition Date:</strong> <time datetime="{{ page.bottle_date | machineDate }}">{{ page.bottle_date | readableDate }}</time></a>
+      <strong>Bottle Condition Date:</strong> <time datetime="{{ bottle_date | machineDate }}">{{ bottle_date | readableDate }}</time></a>
     </small>
   </p>
   {%- endif -%}
   {%- if ready_date -%}
   <p>
     <small>
-      <strong>Ready date:</strong> <time datetime="{{ page.ready_date | machineDate }}">{{ page.ready_date | readableDate }}</time></a>
+      <strong>Ready date:</strong> <time datetime="{{ ready_date | machineDate }}">{{ ready_date | readableDate }}</time></a>
     </small>
   </p>
   {%- endif -%}
@@ -41,6 +43,8 @@ section: recipe
     {% endfor %}
     </p>
   {% endif %}
+
+  <hr>
 
   {{ layoutContent | safe }}
 
