@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: MatthewShields/adam-beer-recipes
   branch: main # Branch to update (optional; defaults to main)
 
 # Uncomment below to enable drafts
